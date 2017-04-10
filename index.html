@@ -6,14 +6,14 @@
 	<title>Shaun's Resume</title>
 	<link rel="icon" type="image/x-icon" href="resume-icon.png">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.min.css">
 	<script src="lib/jQuery/jquery-1.11.1.min.js"></script>
 	<script src="lib/navFixed-1.0.1.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/main.min.js"></script>
 </head>
 <body>
 	<section id="block-firstPage">
-		<p class="blockTitle">Hello World</p>
+		<p class="blockTitle">Shaun's Resume</p>
 		<div id="fstPage-down"><a href="#block-intro" hideFocus="true"></a></div>
 	</section>
 
@@ -33,26 +33,29 @@
 
 	<section id="block-intro">
 		<div class="container">
-			<div id="intro-icon">
-				<a class="link" href="http://github.com/jasinyip" id="link-github" hideFocus="true">GitHub</a>
+			<div id="intro-icon"> 
+				<a class="link" href="https://github.com/shaunfox/resume" id="link-github" hideFocus="true">GitHub</a>
 				<a class="link" href="https://www.linkedin.com/in/%E9%9C%84-%E7%8E%8B-581384a1/" id="link-linkedin" hideFocus="true">Linkedin</a>
-				<img id="myPhoto" src="img/myPhoto.png">
+
+				<a class="link" id="myPhoto" href="javascript:void(0)" hideFocus="true">myPhoto</a>
+
 				<a class="link" href="http://www.shaun.win/" id="link-homePage" hideFocus="true">HomePage</a>
 				<!-- 邮箱地址用的是Unicode -->
 				<a class="link" href="mailto:&#115;&#104;&#97;&#117;&#110;&#46;&#119;&#97;&#110;&#103;&#64;&#104;&#111;&#116;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" id="link-email" hideFocus="true">E-mail</a>
 			</div>
 			
-			<div id="intro-text">
-				<ul class="fl">
+			<div id="intro-text"> 
+				<div class="intro-list">
+				<ul class="list-l">
 					<li><span>姓名</span> | 王霄 - Shaun Wang</li>
 					<li><span>手机</span> | 18141925267</li>
 					<li><span>邮箱</span> | <a href="mailto:&#115;&#104;&#97;&#117;&#110;&#46;&#119;&#97;&#110;&#103;&#64;&#104;&#111;&#116;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" hideFocus="true">&#115;&#104;&#97;&#117;&#110;&#46;&#119;&#97;&#110;&#103;&#64;&#104;&#111;&#116;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
 					<li><span>所在地</span> | 北京 - 东城</li>
-					<li><span>GitHub</span> | <a href="https://github.com/shaunfox/onlineResume" hideFocus="true">点击进入</a> </li>
+					<li><span>GitHub</span> | <a href="https://github.com/shaunfox/resume" hideFocus="true">点击进入</a> </li>
 					<li><span>Linkedin</span> | <a href="https://www.linkedin.com/in/%E9%9C%84-%E7%8E%8B-581384a1/" hideFocus="true">点击进入</a></li>
 					<li><span>HomePage</span> | <a href="http://www.shaun.win/" hideFocus="true">点击进入</a></li>
 				</ul>
-				<div class="fr" style="text-indent: 2em;">
+				<div class="list-r" style="text-indent: 2em;">
 					<p>我是一个性格平和做事细心,有时间概念的人。</p>
 					<p>喜欢研究领域内各种新技术，对新知识有很好的学习能力。</p>
 					<br>
@@ -62,6 +65,7 @@
 					<p>
 					熟悉 Java+MySQL；了解编程常见的算法、逻辑与数据结构，以及面向对象的设计模式。
 					</p>
+				</div> 
 				</div>
 			</div>
 
@@ -118,19 +122,17 @@
 			<div class="work-title">
 				<h2>教 育 与 工 作 经 历</h2>
 			</div>
-			<div class="workEXP-main">
-				<ul class="timebox">
-					<li class="time0">2008.09 - 2012.06</li>
-					<li class="time1">2012.09 - Now</li>
-				</ul>
+			<div class="workEXP-main"> 
 				<div class="timeline"></div>
 				<ul class="workbox">
 					<li class="work-intro0">
+						<label class="work-place">2008.09 - 2012.06</label>
 						<label class="work-place">长春理工大学光电信息学院</label>
 						<label class="work-position">信息管理与信息系统 专业</label>
 						<label class="work-do"></label>
 					</li>
 					<li class="work-intro1">
+						<label class="work-place">2012.09 - Now</label>
 						<label class="work-place">北京可可网络科技有限公司</label>
 						<label class="work-position">网页开发编辑</label>
 						<label class="work-do">负责网站专题页面的设计、前端界面实现；配合PM维护公司移动APP；做网站SEO等。</label>
