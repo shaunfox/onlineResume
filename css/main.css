@@ -152,37 +152,47 @@ h2 {
 	width:auto; 
 	height: auto;
 	vertical-align: top;
+	font-size: 20px;
 }
 
 #intro-text .list-l{ 
 	display: inline-block;
-	width: 330px; 
+	width: 350px; 
 	padding: 10px;  
 	margin: 0 25px; 
 	text-align: left;
 	border: 1px solid #ccc;
+	box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1) inset;
+    border-bottom-right-radius:36px 50px;; 
+    border-top-left-radius:36px 50px;;  
     -webkit-box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1) inset;
-    -webkit-border-bottom-right-radius: 6px 50px; 
+    -webkit-border-bottom-right-radius: 36px 50px; 
+    -webkit-border-bottom-left-radius: 36px 50px; 
 }
 
 #intro-text .list-r{ 
 	display: inline-block;
-	padding: 28px 15px;
-	width: 330px; 
-	margin: 0 25px;  
+	padding: 38px 15px;
+	width: 390px; 
+	margin: 0 50px;  
 	margin-top: 10px;
 	text-align: left;
 	border: 1px solid #ccc;
+	box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1) inset;
+    border-bottom-right-radius:36px 50px;; 
+    border-top-left-radius:36px 50px;;  
     -webkit-box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1) inset;
-    -webkit-border-bottom-right-radius: 6px 50px; 
+    -webkit-border-bottom-right-radius: 36px 50px; 
+    -webkit-border-bottom-left-radius: 36px 50px; 
 }
 
 #intro-text li {
-	height: 39px;
+	height: 70px;
+	line-height: 60px;
 }
 
 #intro-text ul li a {
-	display: inline-block;
+	display: inline-block; 
 }
 
 #intro-text ul li a:hover {
@@ -192,7 +202,7 @@ h2 {
 #intro-text ul li span {
 	display: inline-block;
 	text-align: center;
-	width: 85px;
+	width: 110px;
 }
 
 #intro-text div {
@@ -306,6 +316,8 @@ h2 {
 	display: inline-block;
 	width: 330px;
 	margin-top: 30px;
+	margin-right: 10px;
+	padding: 0 20px;
 	vertical-align: top;
 }
 
@@ -330,7 +342,7 @@ h2 {
 
 /* block-prjEXP */
 #block-prjEXP {
-	padding: 50px 0 60px;
+	padding: 50px 0 100px;
 	width: 100%;
 	background-color: #129DE7;
 	color: #FFFFFF;
@@ -379,7 +391,15 @@ h2 {
 	height: auto;
 	width: 240px;
 	font-size: 20px;
-	text-indent: 1em
+	text-indent: 2em;
+	padding: 15px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1) inset;
+    border-bottom-right-radius:50px; 
+    border-top-left-radius:50px; 
+    -webkit-box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1) inset;
+    -webkit-border-bottom-right-radius:50px; 
+    -webkit-border-top-left-radius:50px; 
 }
  
 
